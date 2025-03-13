@@ -1,0 +1,7 @@
+{
+    "commands": {
+        "привет": "basic_commands.say_hello",
+        "пока": "basic_commands.say_goodbye",
+        "время": "system_utils.tell_time"
+    }
+}
