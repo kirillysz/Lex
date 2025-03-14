@@ -39,6 +39,7 @@ def main():
     env_name = "venv"
     requirements_file = "requirements.txt"
 
+    create_virtual_env(env_name)
     activate_virtual_env(env_name)
     install_requirements(requirements_file)
 
