@@ -1,1 +1,1 @@
-
+python installer.py
