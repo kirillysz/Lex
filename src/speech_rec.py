@@ -21,7 +21,7 @@ class VoskModelSingleton:
 class SpeechRecognition:
     """ Класс Распознавания речи с использованием модели Vosk. """
     def __init__(self):
-        self.model = VoskModelSingleton(r"src\model").model
+        self.model = VoskModelSingleton(r"model").model
         self.recognizer = vosk.KaldiRecognizer(self.model, 16000)
 
         self.mic = pyaudio.PyAudio()
