@@ -68,5 +68,6 @@ def main():
     activate_and_install(env_name, requirements_file)
     install_vosk_model()
 
+
 if __name__ == "__main__":
     main()
